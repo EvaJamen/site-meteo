@@ -2,7 +2,8 @@
 
 	// Instantiate curl
 	$curl = curl_init();
-	curl_setopt($curl, CURLOPT_URL, 'http://api.openweathermap.org/data/2.5/weather?q=Paris&APPID=fd28cca27694800fe8e68a90c96aa39a');
+	$city = !empty($_GET['city']) ? $_GET['city'] : 'Amsterdam';
+	curl_setopt($curl, CURLOPT_URL, 'http://api.openweathermap.org/data/2.5/weather?q='.$city.'&APPID=fd28cca27694800fe8e68a90c96aa39a');
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 	$result = curl_exec($curl);
 	curl_close($curl);

@@ -23,10 +23,21 @@
 			</section>
 		</header>
 		
+		<!-- Find Weather by city -->
 		<form action="#" method="get">
         	<input type="text" value="City name">
 			<input type="submit" value="Find">
     	</form>
+		
+		<!-- City name / Amsterdam is the default value -->
+		<h1><?= $city ?></h1>
+		
+		<!-- Show some data for my API -->
+		<div>
+			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
+			<br><strong>Description: </strong><?= $result->weather[0]->description ?>
+			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
+		</div>
 		
 		<!-- FOOTER -->
 		<footer>
