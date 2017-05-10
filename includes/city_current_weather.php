@@ -39,6 +39,18 @@
 			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
 		</div>
 		
+		<!-- Hide and show some facultative data -->
+		<button type="submit" value="clique" onClick="show_hide_div('id1')"/>Show more</button>
+	
+		<div id="id1">
+			<br><strong>Minimum temperature: </strong><?= $result->main->temp_min ?>°
+			<br><strong>Maximum temperature: </strong><?= $result->main->temp_max ?>°
+			<br><strong>Wind: </strong><?= $result->wind->speed ?> Km/h
+			<br><strong>Humidity: </strong><?= $result->main->humidity ?>%
+		</div>
+		
+		
+		
 		<!-- FOOTER -->
 		<footer>
 		</footer>

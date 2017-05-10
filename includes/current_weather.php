@@ -11,7 +11,7 @@
 	// Json decode
 	$result = json_decode($result);
 
-	// Show result
-	echo '<pre>';
-	print_r($result);
-	echo '</pre>';
+//	// Show result of my API
+//	echo '<pre>';
+//	print_r($result);
+//	echo '</pre>';
