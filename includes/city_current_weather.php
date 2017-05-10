@@ -21,7 +21,12 @@
 					</ul>
 				</nav>
 			</section>
-		</header>	
+		</header>
+		
+		<form action="#" method="get">
+        	<input type="text" value="City name">
+			<input type="submit" value="Find">
+    	</form>
 		
 		<!-- FOOTER -->
 		<footer>
