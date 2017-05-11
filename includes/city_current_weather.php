@@ -1,5 +1,5 @@
 <?php
-	//API Current weather data
+	//API Current weather data (By city name)
 	include 'current_weather.php';
 ?>
 
@@ -48,9 +48,6 @@
 			<br><strong>Wind: </strong><?= $result->wind->speed ?> Km/h
 			<br><strong>Humidity: </strong><?= $result->main->humidity ?>%
 		</div>
-		
-		
-		
 		<!-- FOOTER -->
 		<footer>
 		</footer>
