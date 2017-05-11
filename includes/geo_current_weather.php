@@ -1,6 +1,7 @@
 <?php
 	//API Current weather data (By geolocalisation)
 	include 'geo_weather.php';
+	include 'city_weather.php';
 ?>
 
 <!DOCTYPE html>
@@ -24,17 +25,22 @@
 			</section>
 		</header>
 		
-		<!-- City name / Amsterdam is the default value -->
 		
 		<!-- Show some data for my API -->
 		<div>
-			<p>Vous êtes ici</p>
-			<p>Il est</p><?= date('Y-m-d H:i:s', $result->dt) ?>
+		
+			<h1><?= $city=$result2->city ?> test</h1>
 			
-			<br><strong>City: </strong><?= $result->city ?>
-			<br><strong>Country: </strong><?= $result->country ?>
-			<br><strong>Region: </strong><?= $result->regionName ?>
-			<br><strong>ZIP: </strong><?= $result->zip ?>
+			<p>Nous sommes le <?= date('Y-m-d', $result->dt) ?>, vous êtes à <?= $city=$result2->city ?>, il est <?= date('H:i:s', $result->dt) ?> et il fait <?= $result->main->temp ?>°</p>
+			
+			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
+			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
+			
+			
+			<br><strong>City: </strong><?= $result2->city ?>
+			<br><strong>Country: </strong><?= $result2->country ?>
+			<br><strong>Region: </strong><?= $result2->regionName ?>
+			<br><strong>ZIP: </strong><?= $result2->zip ?>
 		</div>
 		
 		
