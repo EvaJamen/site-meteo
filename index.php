@@ -19,6 +19,7 @@
 					<ul class="menu">
 						<li><a href="#" title="menu">HOME</a></li>
 						<li><a href="includes/city_current_weather.php" title="menu">CITY CURRENT WEATHER</a></li>
+						<li><a href="includes/geo_current_weather.php" title="menu">GEO CURRENT WEATHER</a></li>
 					</ul>
 				</nav>
 			</section>

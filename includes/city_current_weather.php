@@ -1,6 +1,6 @@
 <?php
 	//API Current weather data (By city name)
-	include 'current_weather.php';
+	include 'city_weather.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +18,7 @@
 					<ul class="menu">
 						<li><a href="../index.php" title="menu">HOME</a></li>
 						<li><a href="#" title="menu">CITY CURRENT WEATHER</a></li>
+						<li><a href="geo_current_weather.php" title="menu">GEO CURRENT WEATHER</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -25,7 +26,7 @@
 		
 		<!-- Find Weather by city -->
 		<form action="#" method="get">
-        	<input type="text" value="City name">
+        	<input type="text" value="City name" required name="city">
 			<input type="submit" value="Find">
     	</form>
 		
