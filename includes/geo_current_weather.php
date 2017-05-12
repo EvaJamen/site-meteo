@@ -1,7 +1,7 @@
 <?php
 	//API Current weather data (By geolocalisation)
+	include 'geolocation.php';
 	include 'geo_weather.php';
-	include 'city_weather.php';
 ?>
 
 <!DOCTYPE html>
@@ -26,14 +26,34 @@
 		</header>
 		
 		
+		
+		
+		<!-- City name / Amsterdam is the default value -->
+		
+		
+		<h1><?= $city ?></h1>
+		
+		<!-- Show some data for my API -->
+		<div>
+			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
+			<br><strong>Description: </strong><?= $result->weather[0]->description ?>
+			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
+		</div>
+		
+		
+		
+		
+		
+		
 		<!-- Show some data for my API -->
 		<div>
 		
-			<h1><?= $city=$result2->city ?> test</h1>
+			<h1><?= $city=$result2->city ?></h1>
 			
 			<p>Nous sommes le <?= date('Y-m-d', $result->dt) ?>, vous êtes à <?= $city=$result2->city ?>, il est <?= date('H:i:s', $result->dt) ?> et il fait <?= $result->main->temp ?>°</p>
 			
 			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
+			
 			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
 			
 			
