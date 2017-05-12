@@ -30,33 +30,16 @@
 		
 		<!-- City name / Amsterdam is the default value -->
 		
-		
 		<h1><?= $city ?></h1>
 		
 		<!-- Show some data for my API -->
+		
+		<p>We are the <?= date('Y-m-d', $result->dt) ?>, you are at <?= $city=$result2->city ?>, it is <?= date('H:i:s', $result->dt) ?> and it does <?= $result->main->temp ?>°</p>
+			
 		<div>
 			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
 			<br><strong>Description: </strong><?= $result->weather[0]->description ?>
 			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
-		</div>
-		
-		
-		
-		
-		
-		
-		<!-- Show some data for my API -->
-		<div>
-		
-			<h1><?= $city=$result2->city ?></h1>
-			
-			<p>Nous sommes le <?= date('Y-m-d', $result->dt) ?>, vous êtes à <?= $city=$result2->city ?>, il est <?= date('H:i:s', $result->dt) ?> et il fait <?= $result->main->temp ?>°</p>
-			
-			<br><strong>Temperature: </strong><?= $result->main->temp ?>°
-			
-			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
-			
-			
 			<br><strong>City: </strong><?= $result2->city ?>
 			<br><strong>Country: </strong><?= $result2->country ?>
 			<br><strong>Region: </strong><?= $result2->regionName ?>

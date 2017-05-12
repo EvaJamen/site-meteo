@@ -31,6 +31,7 @@
     	</form>
 		
 		<!-- City name / Amsterdam is the default value -->
+		
 		<h1><?= $city ?></h1>
 		
 		<!-- Show some data for my API -->
