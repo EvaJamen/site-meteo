@@ -1,5 +1,12 @@
-body {
-	
+/*HEADER*/
+body{
+  background: pink;
+  margin: auto;
+}
+
+.container-fluid{
+	margin : 0 auto;
+	width: 100%
 }
 
 .block1{
@@ -25,6 +32,11 @@ body {
 .block5{
 	height: 75px;
 	background: purple;
+}
+
+/*FOOTER*/
+.panel {
+	text-align: center;
 }
 
 /*http://www.oneskyapp.com/fr/docs/bootstrap/css*/

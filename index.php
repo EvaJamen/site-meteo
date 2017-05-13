@@ -33,6 +33,10 @@ else if($q == 'city')
 {
     $page = 'city';
 }
+else if($q == 'actus')
+{
+    $page = 'actus';
+}
 
 else
 {

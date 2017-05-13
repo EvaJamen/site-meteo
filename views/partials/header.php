@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -13,13 +10,22 @@
 	<body>
 		<!-- HEADER -->
 		<header>
-			<section id="topBar">
-				<nav class="container">
-					<ul class="menu">
-						<li><a href="home" title="menu">HOME</a></li>
-						<li><a href="city" title="menu">CITY CURRENT WEATHER</a></li>
-						<li><a href="geolocation" title="menu">GEO CURRENT WEATHER</a></li>
-					</ul>
-				</nav>
-			</section>
+			
+<!--				<div class="navbar navbar-default navbar-fixed-top">-->
+  <div class="container">
+    
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="home" class="active" title="menu">HOME</a></li>
+      <li><a href="city" title="menu">CITY CURRENT WEATHER</a></li>
+      <li><a href="geolocation" title="menu">GEO CURRENT WEATHER</a></li>
+      <li><a href="actus" title="menu">ACTUALITIES</a></li>
+    </ul>
+    
+  </div>
+</nav>
+ 
+ 
+  </div>
 		</header>
