@@ -1,33 +1,9 @@
 <?php
 	//API Current weather data (By geolocalisation)
-	include 'geolocation_api.php';
-	include 'geo_weather_api.php';
+	include 'includes/geo_weather_api.php';
+	include 'includes/geolocation_api.php';
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Geo current weather</title>
-		<link rel="stylesheet" href="../src/css/style.css" />
-	</head>
-	<body>
-		<!-- HEADER -->
-		<header>
-			<section id="topBar">
-				<nav class="container">
-					<ul class="menu">
-						<li><a href="home" title="menu">HOME</a></li>
-						<li><a href="city" title="menu">CITY CURRENT WEATHER</a></li>
-						<li><a href="#" title="menu">GEO CURRENT WEATHER</a></li>
-					</ul>
-				</nav>
-			</section>
-		</header>
-		
-		
-		
-		
+			
 		<!-- City name / Amsterdam is the default value -->
 		
 		<h1><?= $city ?></h1>

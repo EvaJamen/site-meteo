@@ -26,4 +26,6 @@ else
     $page = '404';
 }
 
+include 'views/partials/header.php';
 include 'views/pages/'.$page.'.php';
+include 'views/partials/footer.php';
