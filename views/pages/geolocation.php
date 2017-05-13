@@ -21,11 +21,3 @@
 			<br><strong>Region: </strong><?= $result2->regionName ?>
 			<br><strong>ZIP: </strong><?= $result2->zip ?>
 		</div>
-		
-		
-		<!-- FOOTER -->
-		<footer>
-		</footer>
-		
-	</body>
-</html>

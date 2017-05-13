@@ -2,6 +2,19 @@
 
 include 'config.php';
 
+//cookies pendant 30min
+setcookie('name', 'value', time() + 60 * 30);
+
+////session. A revoir si utilisation d'une base de données plus tard
+//session_start();
+//
+//$_SESSION['login']    = 'login_visiteur';
+//$_SESSION['is_admin'] = true;
+//$_SESSION['toto']     = array('tata', 'tutu');;
+
+
+
+//Routing
 $q = isset($_GET['q']) ? $_GET['q'] : '';
 
 if($q == '')

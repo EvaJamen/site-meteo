@@ -30,11 +30,3 @@
 			<br><strong>Wind: </strong><?= $result->wind->speed ?> Km/h
 			<br><strong>Humidity: </strong><?= $result->main->humidity ?>%
 		</div>
-		
-		
-		<!-- FOOTER -->
-		<footer>
-		</footer>
-		<script src="src/js/script.js"></script>
-	</body>
-</html>

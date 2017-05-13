@@ -5,11 +5,3 @@
 			<div class="col-md-3 block4"></div>
 			<div class="col-md-3 block5"></div>
 		</section>
-		
-		<!-- FOOTER -->
-		<footer>
-		</footer>
-		
-		<script src="src/js/script.js"></script>
-	</body>
-</html>
