@@ -1,5 +1,5 @@
 <?php
-	//include 'city_weather_api.php';
+	include 'includes/city_weather_api.php';
 ?>
 
 <!DOCTYPE html>
@@ -8,8 +8,6 @@
 		<meta charset="UTF-8">
 		<title>METEO SITE</title>
 		<link rel="stylesheet" href="../../src/css/style.css">
-		<!-- Latest compiled and minified CSS -->
-<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 	</head>
 	<body>		<!-- HEADER -->
 		<header>
