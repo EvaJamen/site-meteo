@@ -1,7 +1,7 @@
 <?php
 	//API Current weather data (By geolocalisation)
-	include 'geolocation.php';
-	include 'geo_weather.php';
+	include 'geolocation_api.php';
+	include 'geo_weather_api.php';
 ?>
 
 <!DOCTYPE html>
@@ -17,8 +17,8 @@
 			<section id="topBar">
 				<nav class="container">
 					<ul class="menu">
-						<li><a href="../index.php" title="menu">HOME</a></li>
-						<li><a href="city_current_weather.php" title="menu">CITY CURRENT WEATHER</a></li>
+						<li><a href="home" title="menu">HOME</a></li>
+						<li><a href="city" title="menu">CITY CURRENT WEATHER</a></li>
 						<li><a href="#" title="menu">GEO CURRENT WEATHER</a></li>
 					</ul>
 				</nav>

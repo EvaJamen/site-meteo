@@ -1,4 +1,6 @@
-body {padding:30px;}
+body {
+	
+}
 
 .block1{
 	height: 100px;
@@ -24,3 +26,5 @@ body {padding:30px;}
 	height: 75px;
 	background: purple;
 }
+
+/*http://www.oneskyapp.com/fr/docs/bootstrap/css*/
