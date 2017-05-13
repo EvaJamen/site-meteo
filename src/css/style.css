@@ -4,35 +4,58 @@ body{
   margin: auto;
 }
 
-.container-fluid{
+.container{
 	margin : 0 auto;
 	width: 100%
 }
+
+
+/*HOME*/
+/*DESCRIPTION*/
+
+
 
 .block1{
 	height: 100px;
 	background: red;
 }
 
+#impact{
+  font-size: 3.7em;
+	text-align: center;
+}
+
 .block2{
-	height: 75px;
-	background: blue;
+	background: pink;
+	height:150px;
 }
 
 .block3{
-	height: 75px;
 	background: orange;
+	height:150px;
 }
 
 .block4{
-	height: 75px;
 	background: yellow;
+	height:150px;
 }
 
-.block5{
-	height: 75px;
-	background: purple;
+
+.column{
+  float:left;
+  margin:0px 5px;
 }
+
+
+.column span{
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.column p{
+  font-size: 0.9em;
+}
+
 
 /*FOOTER*/
 .panel {
