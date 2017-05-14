@@ -14,6 +14,10 @@ body{
 	background-image:linear-gradient(#b3cde0, #FFFFFF);
 }
 
+li{
+	border-bottom: solid 0.2px white;
+}
+
 
 
 /*HOME*/
@@ -94,6 +98,20 @@ p{
 	font-style: italic;
 }
 
+.actus{	
+	background: #b3cde0;
+	padding: 15px;
+	height: 200px;
+}
+
+.button{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.more{
+	font-size: 1.2em;
+}
 /*FOOTER*/
 .panel {
 	text-align: center;
