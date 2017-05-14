@@ -63,15 +63,36 @@ p{
 .name{
 	font-size: 3em;
 	text-align: center;
-	color: #708090;
+	color:#36454f;
 }
 
 .block1{
 	background: #b3cde0;
 }
 
+.list-group {
+	color: #03396c;
+}
+#resume{
+	color: white;
+	background: #03396c;
+}
 
+.col-md-12{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.find{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.value{
+	color:#c0c5ce;
+	font-style: italic;
+}
 
 /*FOOTER*/
 .panel {

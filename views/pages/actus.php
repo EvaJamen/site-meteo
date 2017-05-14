@@ -3,7 +3,7 @@
 </div>
 
 <div>
-	What about actualities ? Our website informed its users for many years about rain, storm and even summer heat. But unfortunately, we were not able to give you all informations about actualities - so we decided to redirect you ! 
+	What about actualities ? Our website informe its users for many years about rain, storm and even summer heat. But unfortunately, we are not able to give you all informations about actualities - so we decided to redirect you ! 
 </div>
 
 
@@ -24,8 +24,3 @@
 <button type="submit" class="btn btn-primary btn-lg" >METEO APPS - App Store</button>
  </form>
   </div>
- 
-<div>
-	Testimonials :
-	
-</div>

@@ -3,19 +3,20 @@
 ?>
 
 				
-<section class="blocks">
-		  	<div class="col-md-12 block1">
+<section class="col-md-12 block1">
+		  	<div class="col-md-12 find">
 	<form action="#" method="get">
-        	<input type="text" value="City name" required name="city">
-			<input type="submit" value="Find">
-    	</form>
+        	<input type="text" value="City name" required name="city" class="value">
+			<button type="submit" class="btn btn-primary btn-lg put" >Find</button>
+				</form></div>
+    	
 		<!-- City name / Paris is the default value -->
 		
 		<!-- Convert Kelvin(K) to Celsius(°C) : apply -273,15 to the data-->
 		<!-- Show some data for my API -->
 		
 		<div class="col-md-4 block1">
-        		<p class="name">Paris</p>
+        		<p class="name"><?= $city ?></p>
         		<div><img src="src/img/cityscape2.png" alt="city"></div>
 		</div>
 		
@@ -61,8 +62,8 @@
 </ul>
 </div>
 	
-<div class="col-md-12 block1">
-    	<button type="submit" value="clique" onClick="show_hide_div('id1')"/>Show/Hide for more</button>
+<div class="col-md-12 find">
+    	<button type="submit" value="clique" class="btn btn-primary btn-lg" onClick="show_hide_div('id1')"/>Show/Hide for more</button>
 </div>
 
 </section>
