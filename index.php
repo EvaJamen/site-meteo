@@ -3,7 +3,7 @@
 include 'config.php';
 
 //cookies pendant 30min
-setcookie('name', 'value', time() + 60 * 30);
+setcookie('city', '$city', time() + 60 * 30);
 
 ////session. A revoir si utilisation d'une base de données plus tard
 //session_start();
@@ -37,6 +37,11 @@ else if($q == 'actus')
 {
     $page = 'actus';
 }
+else if($q == 'preference')
+{
+    $page = 'preference';
+}
+
 
 else
 {

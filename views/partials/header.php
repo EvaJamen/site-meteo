@@ -18,6 +18,7 @@
       <li><a href="city">Cities</a></li>
       <li><a href="geolocation">Geolocation</a></li>
       <li><a href="actus">Actualities</a></li>
+      <li><a href="preference">Preference</a></li>
     </ul>
   </div>
 </nav>

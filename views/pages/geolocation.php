@@ -22,15 +22,15 @@
    <li class="list-group-item" id="resume">We are the <?= date('Y-m-d', $result->dt) ?>, you are at <?= $city=$result2->city ?>, it is <?= date('H:i:s', $result->dt) ?> and it does <?= $result->main->temp - $c ?>°
   </li>
   <li class="list-group-item">
-    <span class="badge">Date</span>
+    <strong>Date : </strong>
     <?= date('Y-m-d H:i:s', $result->dt) ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">Temperature</span>
+    <strong>Temperature : </strong>
     <?= $result->main->temp - $c ?>°
   </li>
   <li class="list-group-item">
-    <span class="badge">Appearance</span>
+    <strong>Appearance : </strong>
     <?= $result->weather[0]->description ?>
   </li>
 			</ul>
@@ -40,19 +40,19 @@
 		<div class="col-md-4 block2">
         		<ul class="list-group">
   <li class="list-group-item">
-    <span class="badge">City</span>
+    <strong>City : </strong>
     <?= $result2->city ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">Country</span>
+    <strong>Country : </strong>
     <?= $result2->country ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">Region</span>
+    <strong>Region : </strong>
     <?= $result2->regionName ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">ZIP Code</span>
+    <strong>ZIP Code : </strong>
     <?= $result2->zip ?>
   </li>
 </ul>

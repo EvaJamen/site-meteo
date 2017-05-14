@@ -23,19 +23,16 @@
 		<div class="col-md-4 block2">
         		<ul class="list-group">
   <li class="list-group-item">
-    <span class="badge">Date</span>
-    <?= date('Y-m-d H:i:s', $result->dt) ?>
+  <strong>Date : </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">Temperature</span>
-    <?= $result->main->temp - $c ?>°
+	  <strong>Temperature : </strong><?= $result->main->temp - $c ?>°
   </li>
   <li class="list-group-item">
-    <span class="badge">Appearance</span>
-    <?= $result->weather[0]->main ?>
+    <strong>Appearance : </strong><?= $result->weather[0]->main ?>
   </li>
   <li class="list-group-item">
-    <span class="badge">Description</span>
+    <strong>Description : </strong>
     <?= $result->weather[0]->description ?>
   </li>
 </ul>
@@ -44,19 +41,19 @@
 		<div class="col-md-4 block2" id="id1">
 <ul class="list-group">
   <li class="list-group-item">
-    <span class="badge">Minimum</span>
+    <strong>Minimum : </strong>
     <?= $result->main->temp_min - $c ?>°
   </li>
   <li class="list-group-item">
-    <span class="badge">Maximum</span>
+    <strong>Maximum : </strong>
     <?= $result->main->temp_max - $c ?>°
   </li>
   <li class="list-group-item">
-    <span class="badge">Wind</span>
+    <strong>Wind : </strong>
     <?= $result->wind->speed ?> Km/h
   </li>
   <li class="list-group-item">
-    <span class="badge">Humidity</span>
+    <strong>Humidity : </strong>
     <?= $result->main->humidity ?>%
   </li>
 </ul>

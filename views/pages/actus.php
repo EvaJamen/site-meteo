@@ -1,4 +1,4 @@
-<section class="blocks">
+	<section class="blocks">
 		<div class="col-md-12 main">
 			<div id="impact"> We are not only !</div>
 		</div>
@@ -27,5 +27,7 @@
  </form>
   </div>
 		</div>
+		
+		
 		
 </section>
