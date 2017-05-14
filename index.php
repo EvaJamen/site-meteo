@@ -2,21 +2,13 @@
 
 include 'config.php';
 
-//cookies pendant 30min
+//Cookies during 30min
 setcookie('city', '$city', time() + 60 * 30);
 
-////session. A revoir si utilisation d'une base de données plus tard
-//session_start();
-//
-//$_SESSION['login']    = 'login_visiteur';
-//$_SESSION['is_admin'] = true;
-//$_SESSION['toto']     = array('tata', 'tutu');;
-
-
-
-//Routing
+//Prevent the user for writing q on the URL
 $q = isset($_GET['q']) ? $_GET['q'] : '';
 
+//Routing for all pages
 if($q == '')
 {
     $page = 'home';
@@ -41,7 +33,6 @@ else if($q == 'preference')
 {
     $page = 'preference';
 }
-
 
 else
 {

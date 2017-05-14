@@ -1,5 +1,4 @@
-console.log('ok');
-
+//FUNCTION TO HIDE AND SHOW MORE INFORMATIONS
 
 function show_hide_div(nomdiv){
 	var lediv = document.getElementById(nomdiv);

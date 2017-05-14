@@ -11,9 +11,10 @@
 	// Json decode
 	$result = json_decode($result);
 
-	// Value to convert Kelvin(K) to Celsius(°C)
+	// Value to convert Kelvin(K) to Celsius(°C) (cf. city.php file )
 	$c=273.15;
 
-//echo '<pre>';
-//print_r($result);
-//echo '</pre>';
+// 	Show the Json of this API to understand what data I use
+//	echo '<pre>';
+//	print_r($result);
+//	echo '</pre>';

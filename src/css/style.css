@@ -36,6 +36,67 @@ li{
  font-size: 3.5em;
 }
 
+p{
+	color: #36454f;
+}
+
+.title{
+	font-size: 2em;
+	text-align: center;
+	color: #708090;
+}
+
+
+
+/*CITY*/
+.name{
+	font-size: 3em;
+	text-align: center;
+	color:#36454f;
+}
+
+.block1{
+	background: #b3cde0;
+}
+
+.find{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.value{
+	color:#03396c;
+}
+
+
+
+/*GEOLOCATION*/
+#resume{
+	color: white;
+	background: #03396c;
+}
+
+
+
+/*ACTUALITIES*/
+.actus{	
+	background: #b3cde0;
+	padding: 15px;
+	height: 200px;
+}
+.more{
+	font-size: 1.2em;
+}
+
+
+
+/*FOOTER*/
+.panel {
+	text-align: center;
+	color:#4f5b66;
+}
+
+/*GENERAL*/
 .col-md-4{
 	padding-top: 3px;
 	font-size: 1em;
@@ -47,39 +108,9 @@ li{
 	padding: 15px;
 }
 
-p{
-	color: #36454f;
-}
-
-.title{
-	font-size: 2em;
+.button{
 	text-align: center;
-	color: #708090;
-}
-
-/*END HOME*/
-
-
-
-
-/*CITY*/
-
-.name{
-	font-size: 3em;
-	text-align: center;
-	color:#36454f;
-}
-
-.block1{
-	background: #b3cde0;
-}
-
-.list-group {
-	color: #03396c;
-}
-#resume{
-	color: white;
-	background: #03396c;
+	margin-top: 10px;
 }
 
 .col-md-12{
@@ -88,38 +119,6 @@ p{
 	padding-bottom: 20px;
 }
 
-.find{
-	text-align: center;
-	padding-bottom: 20px;
+.list-group {
+	color: #03396c;
 }
-
-.value{
-	color:#c0c5ce;
-	font-style: italic;
-}
-
-.actus{	
-	background: #b3cde0;
-	padding: 15px;
-	height: 200px;
-}
-
-.button{
-	text-align: center;
-	margin-top: 10px;
-}
-
-.more{
-	font-size: 1.2em;
-}
-
-/*FOOTER*/
-.panel {
-	text-align: center;
-	color:#4f5b66;
-}
-
-
-
-
-/*http://www.oneskyapp.com/fr/docs/bootstrap/css*/

@@ -3,11 +3,11 @@
 	//CONNECT TO MY BDD
 	include 'config.php';
 
-	//INPUT ORDERS IN TABLE PRODUCTS OF MY BDD
+	//INPUT DATA IN TABLE METEO OF MY BDD
 	include 'includes/preference_bdd.php';
 
 ?>
-		<!-- CREATE FORM TO INPUT ORDERS-->
+<!-- CREATE FORM TO INPUT DATA-->
 <section class="blocks">
 		<div class="col-md-12 main">
 			<div id="impact"> Store your program !</div>
