@@ -2,7 +2,7 @@
 	//API Current weather data (By geolocalisation)
 	include 'includes/geo_weather_api.php';
 	include 'includes/geolocation_api.php';
-?>
+?>a
 			
 		<!-- City name / Amsterdam is the default value -->
 		

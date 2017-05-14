@@ -22,7 +22,7 @@ body{
 
 #impact{
   font-size: 3.7em;
-	text-align: center;
+text-align: center;
 }
 
 .block2{
@@ -40,6 +40,12 @@ body{
 	height:150px;
 }
 
+.block5{
+	background: orange;
+	height:150px;
+	border-style: solid;
+	border-color: black;
+}
 
 .column{
   float:left;

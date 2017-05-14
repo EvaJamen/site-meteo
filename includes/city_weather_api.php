@@ -13,3 +13,7 @@
 
 	// Value to convert Kelvin(K) to Celsius(°C)
 	$c=273.15;
+
+//echo '<pre>';
+//print_r($result);
+//echo '</pre>';

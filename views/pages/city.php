@@ -15,10 +15,12 @@
 		
 		<!-- Convert Kelvin(K) to Celsius(°C) : apply -273,15 to the data-->
 		<!-- Show some data for my API -->
+		
 		<div>
-			<br><strong>Date: </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
-			<br><strong>Description: </strong><?= $result->weather[0]->description ?>
-			<br><strong>Temperature: </strong><?= $result->main->temp - $c ?>°
+			<br><strong>Date : </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
+			<br><strong>Appearance : </strong><?= $result->weather[0]->main ?>
+			<br><strong>Description : </strong><?= $result->weather[0]->description ?>
+			<br><strong>Temperature : </strong><?= $result->main->temp - $c ?>°
 		</div>
 		
 		<!-- Hide and show some facultative data -->
