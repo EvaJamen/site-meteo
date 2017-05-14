@@ -1,8 +1,7 @@
 <?php
 	include 'includes/city_weather_api.php';
 ?>
-
-		
+	
 		<!-- Find Weather by city -->
 		<form action="#" method="get">
         	<input type="text" value="City name" required name="city">

@@ -1,71 +1,64 @@
+
 /*HEADER*/
 body{
-  background: pink;
-  margin: auto;
+	width:100%;
+	margin:auto;
 }
 
 .container{
-	margin : 0 auto;
-	width: 100%
+	text-align: center;
+	background: #c0c5ce;
+	width: 100%;
+	font-size: 1.5em;
+	color: #708090;
+	background-image:linear-gradient(#b3cde0, #FFFFFF);
 }
 
-
 /*HOME*/
-/*DESCRIPTION*/
-
-
-
-.block1{
-	height: 100px;
-	background: red;
+.main{
+	text-align: center;
+	background-image:linear-gradient(#FFFFFF, #b3cde0);
+	border-bottom: solid 0.2px white;
+	color:#36454f;
 }
 
 #impact{
-  font-size: 3.7em;
-text-align: center;
+ font-size: 2.5em;
 }
 
-.block2{
-	background: pink;
-	height:150px;
+#impact2{
+ font-size: 3.5em;
 }
 
-.block3{
-	background: orange;
-	height:150px;
+.col-md-4{
+	padding-top: 3px;
+	font-size: 1em;
+	text-align: center;
 }
 
-.block4{
-	background: yellow;
-	height:150px;
+.block2{	
+	background: #b3cde0;
+	padding: 15px;
 }
 
-.block5{
-	background: orange;
-	height:150px;
-	border-style: solid;
-	border-color: black;
+p{
+	color: #36454f;
 }
 
-.column{
-  float:left;
-  margin:0px 5px;
+.title{
+	font-size: 2em;
+	text-align: center;
+	color: #708090;
 }
 
+/*END HOME*/
 
-.column span{
-  font-size: 1.5em;
-  margin-left: 20px;
-}
-
-.column p{
-  font-size: 0.9em;
-}
 
 
 /*FOOTER*/
 .panel {
 	text-align: center;
+	color:#4f5b66;
 }
 
 /*http://www.oneskyapp.com/fr/docs/bootstrap/css*/
