@@ -14,6 +14,8 @@ body{
 	background-image:linear-gradient(#b3cde0, #FFFFFF);
 }
 
+
+
 /*HOME*/
 .main{
 	text-align: center;
@@ -52,6 +54,22 @@ p{
 }
 
 /*END HOME*/
+
+
+
+
+/*CITY*/
+
+.name{
+	font-size: 3em;
+	text-align: center;
+	color: #708090;
+}
+
+.block1{
+	background: #b3cde0;
+}
+
 
 
 

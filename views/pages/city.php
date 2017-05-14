@@ -1,36 +1,68 @@
 <?php
 	include 'includes/city_weather_api.php';
 ?>
-	
-		<!-- Find Weather by city -->
-		<form action="#" method="get">
+
+				
+<section class="blocks">
+		  	<div class="col-md-12 block1">
+	<form action="#" method="get">
         	<input type="text" value="City name" required name="city">
 			<input type="submit" value="Find">
     	</form>
-		
-		<!-- City name / Amsterdam is the default value -->
-		<div>
-		<h1><?= $city ?></h1>
+		<!-- City name / Paris is the default value -->
 		
 		<!-- Convert Kelvin(K) to Celsius(°C) : apply -273,15 to the data-->
 		<!-- Show some data for my API -->
 		
-		<div>
-			<br><strong>Date : </strong><?= date('Y-m-d H:i:s', $result->dt) ?>
-			<br><strong>Appearance : </strong><?= $result->weather[0]->main ?>
-			<br><strong>Description : </strong><?= $result->weather[0]->description ?>
-			<br><strong>Temperature : </strong><?= $result->main->temp - $c ?>°
+		<div class="col-md-4 block1">
+        		<p class="name">Paris</p>
+        		<div><img src="src/img/cityscape2.png" alt="city"></div>
 		</div>
 		
-		<!-- Hide and show some facultative data -->
-		
+		<div class="col-md-4 block2">
+        		<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">Date</span>
+    <?= date('Y-m-d H:i:s', $result->dt) ?>
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Temperature</span>
+    <?= $result->main->temp - $c ?>°
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Appearance</span>
+    <?= $result->weather[0]->main ?>
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Description</span>
+    <?= $result->weather[0]->description ?>
+  </li>
+</ul>
+		</div>
+<!-- Hide and show some facultative data -->		
+		<div class="col-md-4 block2" id="id1">
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">Minimum</span>
+    <?= $result->main->temp_min - $c ?>°
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Maximum</span>
+    <?= $result->main->temp_max - $c ?>°
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Wind</span>
+    <?= $result->wind->speed ?> Km/h
+  </li>
+  <li class="list-group-item">
+    <span class="badge">Humidity</span>
+    <?= $result->main->humidity ?>%
+  </li>
+</ul>
+</div>
 	
-		<div id="id1">
-			<br><strong>Minimum temperature: </strong><?= $result->main->temp_min - $c ?>°
-			<br><strong>Maximum temperature: </strong><?= $result->main->temp_max - $c ?>°
-			<br><strong>Wind: </strong><?= $result->wind->speed ?> Km/h
-			<br><strong>Humidity: </strong><?= $result->main->humidity ?>%
-		</div>
-		
-		<button type="submit" value="clique" onClick="show_hide_div('id1')"/>Show/Hide for more</button>
-		</div>
+<div class="col-md-12 block1">
+    	<button type="submit" value="clique" onClick="show_hide_div('id1')"/>Show/Hide for more</button>
+</div>
+
+</section>
